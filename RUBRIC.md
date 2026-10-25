@@ -1,10 +1,14 @@
-# Grading rubric — Video Conferencing QoE Inference
+# Grading rubric — Assignment 2 (take-home midterm): Video Conferencing QoE Inference
 
-**10 points, graded for completion.** This is an optional/past assignment; it
-is not graded unless the term page says otherwise. When it is assigned, the
-same rule as the other assignments applies: if the notebook runs end to end
-and each step does what it asks, you get full credit. The MAE you achieve is
-*not* graded; a working pipeline with a poor frame-rate predictor is 10/10.
+**10 points, graded for completion.** This is the take-home midterm. The same
+rule as Assignment 1 applies: if the notebook runs end to end and each step
+does what it asks, you get full credit. The MAE you achieve is *not* graded; a
+working pipeline with a poor frame-rate predictor is 10/10.
+
+**Collaboration: none.** Unlike Assignment 1, this is individual work. Do not
+discuss the problems or your code with other students. You may use any tools,
+including AI tools (acknowledge them in the notebook, as on Assignment 1), and
+you may talk to the TAs, who will discuss concepts but not give answers.
 
 | # | Item | Pts |
 |---|---|---|

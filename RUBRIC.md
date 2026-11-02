@@ -40,14 +40,15 @@ change the 10-point score and skipping it costs nothing.
 
 - **The notebook must run.** Submit it *executed* (outputs saved). A notebook
   with error tracebacks in the cells that implement graded items, or with no
-  outputs at all, is treated as not running: those items earn 0 until fixed
+  outputs at all, is treated as not running: those items earn 0.5 until fixed
   and resubmitted.
-- **Sub-items are all-or-nothing.** Each row is 1 point if done in good faith,
-  0 if absent. There are no half points; "did the thing" is the bar.
+- **Partial credit.** Each row is 1 point if done in good faith, 0.5 if
+  attempted but incomplete or partly wrong, 0 only if absent. "Did the thing"
+  is the bar, and ties go to you.
 - **Written answers count.** Item 1.2 requires a sentence or two of
   justification, not just a one-word answer.
 - **Random splits do not count for 3.4.** The notebook asks for a temporal
-  split; a shuffled `train_test_split` earns 0 for that row until fixed.
+  split; a shuffled `train_test_split` earns 0.5 for that row (1 once fixed).
 - **Data.** `teams.csv` is in
   [noise-courses/data](https://github.com/noise-courses/data) under
   `video-conference-qoe/`; the notebook expects that repository cloned at
